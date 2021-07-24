@@ -1,0 +1,15 @@
+server:
+   port: 8761
+spring:
+   application:
+      name: Registry-Server
+eureka:
+   client:
+      register-with-eureka: false
+      fetch-registry: false    
+   #server:
+      #eviction-interval-timer-in-ms: 9000
+      #renewalPercentThreshold: 0.33
+      #enable-self-preservation: false
+   #instance:
+      #hostname: localhost  
